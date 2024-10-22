@@ -26,7 +26,7 @@ const Home: React.FC<HomeProps> = ({ navigation }) => {
         style={styles.cardButton}
         onPress={() => navigation.navigate('ImageScreen')}
       >
-        <Text style={styles.cardButtonText}>Go to List Image</Text>
+        <Text style={styles.cardButtonText}>Go to Song List Image</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
